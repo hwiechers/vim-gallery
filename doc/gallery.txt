@@ -1,0 +1,25 @@
+*gallery.txt* Plugin for browsing color schemes
+
+Author:  Henri Wiechers <henri@wiechers.me>
+Repository: https://github.com/hwiechers/vim-gallery
+License: MIT
+
+GALLERY                                         *gallery* *Gallery()*
+
+This plugin adds a Gallery() function for browing color schemes. Call this
+function using ":call Gallery()" to start browsing.
+
+REQUIREMENTS
+
+This plugin requires Vim 8.
+
+COMMANDS / KEYS
+
+The keys in the table below may be used when browsing.
+
+Command  Keys
+-------  --------
+Forward  j
+Back     k
+Accept   <enter>
+Cancel   <esc>
