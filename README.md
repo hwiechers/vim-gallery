@@ -23,9 +23,9 @@ In Vim:
 
 The keys in the table below may be used when browsing.
 
-Command  Keys
--------  --------
-Forward  j
-Back     k
-Accept   <enter>
-Cancel   <esc>
+|Command|Keys    |
+|-------|--------|
+|Forward|j       |
+|Back   |k       |
+|Accept |\<enter> |
+|Cancel |\<esc>   |
