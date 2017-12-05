@@ -1,4 +1,4 @@
-# VIM Gallery
+# Vim Gallery
 
 This plugin adds a Gallery() function for browing color schemes. Call this
 function using ":call Gallery()" to start browsing.
