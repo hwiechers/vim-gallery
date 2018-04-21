@@ -18,8 +18,8 @@ COMMANDS / KEYS
 The keys in the table below may be used when browsing.
 
 Command  Keys
--------  --------
+-------  ----------
 Forward  j
 Back     k
 Accept   <enter>
-Cancel   <esc>
+Cancel   q or <esc>

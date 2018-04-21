@@ -33,7 +33,7 @@ function! Gallery()
             redraw
             echo 'Accepted' name '(remember to update your config)'
             break
-        elseif option ==? "\<Esc>"
+        elseif option ==? 'q' || option ==? "\<Esc>"
             execute 'colorscheme' old_name
             redraw
             echo 'Canceled'
