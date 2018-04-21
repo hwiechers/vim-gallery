@@ -4,9 +4,18 @@ function! Gallery()
 
     let names = map(paths, { index, value -> fnamemodify(value, ':t:r') })
     call sort(names)
-    let index = index(names, g:colors_name)
+    if exists("g:colors_name")
+        let old_name = g:colors_name
+    else
+        let old_name = "default"
+    endif
+    let index = index(names, old_name)
+    if index < 0
+        let index = 0
+    endif
     let name = names[index % len(names)]
-    let old_name = name
+    execute 'colorscheme' name
+    redraw
  
     while v:true
         let help_prompt = "[?] Show Help"
