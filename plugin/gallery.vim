@@ -45,7 +45,8 @@ function! Gallery()
             break
         endif
  
-        let name = names[index % len(names)]
+        let index = (index + len(names)) % len(names)
+        let name = names[index]
         execute 'colorscheme ' . name
         redraw
     endwhile
